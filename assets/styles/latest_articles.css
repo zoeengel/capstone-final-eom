@@ -1,0 +1,117 @@
+.latest-news-heading {
+	text-align: center;
+	justify-content: center;
+	font-size: 40px;
+}
+.three-latest-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-flow: wrap;
+	/* width: 100vw; */
+	margin: 2em auto;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	background-color: rgba(0, 0, 0, 0.575);
+}
+.card-img-top {
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.card {
+	position: relative;
+	flex: 0 0 30%;
+	max-width: 30%;
+	background: rgba(129, 160, 132, 0.856);
+	border: none;
+	margin-bottom: 50px;
+	transition: 0.3s;
+}
+.card-head {
+	text-align: center;
+	padding: 50px 10px;
+	background: linear-gradient(to right, #3fa731, #439e31);
+	color: #fff;
+}
+.card-body {
+	padding: 30px 20px;
+	text-align: center;
+	font-size: 18px;
+	max-width: fit-content;
+	padding-bottom: 60px;
+	overflow: hidden;
+}
+.card-body .btn {
+	display: block;
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(to right, #3fa731, #439e31);
+	margin-top: 30px;
+	text-decoration: none;
+	padding: 10px 5px;
+	/* position: absolute; */
+	bottom: 16px;
+	box-sizing: border-box;
+	width: 100%;
+	/* bottom: 0; */
+	/* left: 0; */
+}
+.content {
+	text-align: center;
+	margin: 70px auto;
+	padding: 20px;
+	background: rgb(121, 199, 98);
+	color: #000000;
+	border-radius: 5px;
+	width: 30%;
+	/* position: relative; */
+	transition: all 5s ease-in-out;
+	position: relative;
+	margin: 0 auto;
+	/* top: 35%; */
+	max-width: fit-content;
+}
+
+.modal {
+	position: fixed;
+	/* hide it */
+	opacity: 0;
+	visibility: hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	z-index: 1;
+}
+
+.modal:target {
+	/* show it */
+	visibility: visible;
+	opacity: 1;
+}
+.pop-head {
+	font-size: 42px;
+	line-height: 2;
+	letter-spacing: 0.022em;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.closebtn {
+	/* position: absolute; */
+	/* top: 20px; */
+	/* right: 30px; */
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.closebtn:hover {
+	color: white;
+}

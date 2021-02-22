@@ -8,6 +8,14 @@ html {
 	scroll-behavior: smooth;
 }
 
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 .logo {
 	object-fit: contain;
 	width: 15%;
