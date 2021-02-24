@@ -83,3 +83,18 @@
 		height: max-content;
 	}
 }
+@media (max-width: 1000px) {
+	.card {
+		width: 40%;
+		flex: 100%;
+	}
+}
+
+@media (max-width: 620px) {
+	.three-latest-container {
+		width: 100%;
+	}
+	.card {
+		widows: 80%;
+	}
+}

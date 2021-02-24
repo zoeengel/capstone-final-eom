@@ -6,6 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./assets/styles/navigation.css" />
 		<link rel="stylesheet" href="./assets/styles/landing.css" />
+		<link rel="stylesheet" href="./assets/styles/footer.css" />
+		<link rel="stylesheet" href="./assets/styles/landing.css" />
+		<script
+			src="https://kit.fontawesome.com/b9dcc5736f.js"
+			crossorigin="anonymous"
+		></script>
 		<title>Blogs</title>
 	</head>
 	<body>
@@ -14,17 +20,47 @@
 			<img class="logo" alt="logo" src="assets/images/logo1.png" />
 			<ul class="nav-links" id="nav-links">
 				<li class="nav-link"><a href="index.html">Home</a></li>
-				<li class="nav-link"><a href="#about">About</a></li>
+				<li class="nav-link"><a href="index.html">About</a></li>
 				<li class="nav-link"><a href="blogs.html">Blogs</a></li>
 				<li class="nav-link"><a href="contact.html">Contact</a></li>
 			</ul>
-			<button class="hamburger-menu" onclick="changeNav()">Burger</button>
+			<button class="hamburger-menu" onclick="changeNav()">Menu</button>
 		</nav>
 		<!-- Header -->
-		<header class="">
+		<header class="landing">
 			<h1 class="header-title">Blogs</h1>
+			<h3 class="header-title" id="header-sub">Our thoughts and interviews</h3>
 		</header>
+		<!-- Blogs Section -->
+		<section class="blogs">
+			<ul id="blog-items"></ul>
+		</section>
+		<footer>
+			<ul class="social-footer">
+				<li>
+					<a target="blank" href="https://soundcloud.com/discover"
+						><i class="fa fa-soundcloud"></i
+					></a>
+				</li>
+				<li>
+					<a target="blank" href="https://www.facebook.com/"
+						><i class="fa fa-facebook"></i
+					></a>
+				</li>
+				<li>
+					<a target="blank" href="https://www.instagram.com/"
+						><i class="fa fa-instagram"></i
+					></a>
+				</li>
+				<li>
+					<a target="blank" href="https://twitter.com/login?lang=en"
+						><i class="fa fa-twitter"></i
+					></a>
+				</li>
+			</ul>
+		</footer>
 		<!-- Script Files -->
 		<script src="assets/scripts/navigation.js"></script>
+		<script src="assets/scripts/blogs.js"></script>
 	</body>
 </html>

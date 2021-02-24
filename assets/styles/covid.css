@@ -1,0 +1,48 @@
+#about {
+	display: flex;
+	flex-direction: row;
+}
+.covid-news {
+	font-size: 25px;
+	text-align: center;
+	justify-content: center;
+	padding: 2px;
+	margin-bottom: 10%;
+}
+.about {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about > div,
+.about > img {
+	width: 42%;
+}
+
+.about > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10%;
+}
+
+.about > div > h4 {
+	font-size: 15px;
+}
+/* Media query to change display options of about section */
+@media screen and (max-width: 768px) {
+	.about {
+		/* flex-wrap: nowrap; */
+		flex-direction: column;
+	}
+
+	.about > div,
+	.about > img {
+		width: 100%;
+	}
+
+	.about > div:nth-child(odd) {
+		background-color: rgba(0, 0, 0, 0.575);
+	}
+}

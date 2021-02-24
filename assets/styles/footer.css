@@ -1,0 +1,33 @@
+.social-footer {
+	list-style-type: none;
+	display: flex;
+	font-size: 300%;
+	text-align: center;
+	justify-content: center;
+	padding: 2%;
+	background-color: rgba(0, 0, 0, 0.575);
+	height: 15vh;
+	place-content: center;
+	place-items: center;
+}
+
+.fa-soundcloud .fa-facebook .fa-twitter .fa-instagram {
+	margin: 5%;
+}
+
+.social-footer > li > a > i {
+	text-decoration: none;
+	color: black;
+	font: 20px;
+	letter-spacing: 10px;
+}
+
+.social-footer > li > a > i:hover {
+	color: #439e31;
+}
+
+@media screen and (max-width: 720px) {
+	.social-footer > li > a {
+		font-size: 22px;
+	}
+}
