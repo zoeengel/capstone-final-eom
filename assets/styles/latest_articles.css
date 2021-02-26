@@ -14,6 +14,7 @@
 	/* padding-top: 5em;
 	padding-bottom: 5em; */
 	background-color: rgba(0, 0, 0, 0.575);
+	z-index: -2;
 }
 .card-img-top {
 	background-size: cover;
@@ -22,6 +23,7 @@
 	object-fit: cover;
 }
 .card {
+	z-index: -1;
 	position: relative;
 	flex: 0 0 30%;
 	/* max-width: 30%; */
