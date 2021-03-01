@@ -16,6 +16,18 @@
 	background-color: rgba(0, 0, 0, 0.575);
 	z-index: -2;
 }
+
+.blogs-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* width: 100vw; */
+	/* margin: 2em auto; */
+	padding: 11em;
+	/* padding-top: 5em;
+	padding-bottom: 5em; */
+}
 .card-img-top {
 	background-size: cover;
 	width: 100%;
@@ -23,7 +35,7 @@
 	object-fit: cover;
 }
 .card {
-	z-index: -1;
+	/* z-index: -1; */
 	position: relative;
 	flex: 0 0 30%;
 	/* max-width: 30%; */
@@ -34,6 +46,11 @@
 	align-self: center;
 	justify-self: center;
 	place-self: center;
+}
+
+.card .card-image {
+	width: 100%;
+	object-fit: cover;
 }
 .card-head {
 	text-align: center;

@@ -15,13 +15,13 @@ function createBlogItem(blog) {
 	const item = `<li>
 			<!-- Cards -->
 			<div class="card">
-				
+				<img class="card-image" src="${blog.image}">
 				<div class="card-head">
 					<h2>${blog.Title}</h2>
 				</div>
 				<div class="card-body">
 					<p>${blog.Content}</p>
-					<a href="#vortex" class="btn">Read more</a>
+					<a href="./blog.html?blogID=${blog.id}" class="btn">Read more</a>
 				</div>
 			</div>
 </li>`;

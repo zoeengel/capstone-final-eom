@@ -7,19 +7,23 @@
 		<link rel="stylesheet" href="./assets/styles/navigation.css" />
 		<link rel="stylesheet" href="./assets/styles/landing.css" />
 		<link rel="stylesheet" href="./assets/styles/footer.css" />
-		<title>Document</title>
+		<script
+			src="https://kit.fontawesome.com/b9dcc5736f.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Blog</title>
 	</head>
 	<body>
-		<!-- Navigation Section -->
-		<nav class="navbar">
-			<img src="..." alt="Logo" class="logo" />
+		<!-- Navigation -->
+		<nav class="nav-bar">
+			<img class="logo" alt="logo" src="assets/images/logo1.png" />
 			<ul class="nav-links" id="nav-links">
-				<li class="nav-link"><a href="./index.html">Home</a></li>
-				<li class="nav-link"><a href="./index.html#about">About</a></li>
-				<li class="nav-link"><a href="./blogs.html">Blogs</a></li>
-				<li class="nav-link"><a href="./register.html">Register</a></li>
+				<li class="nav-link"><a href="index.html">Home</a></li>
+				<li class="nav-link"><a href="#about-landing">About</a></li>
+				<li class="nav-link"><a href="blogs.html">Blogs</a></li>
+				<li class="nav-link"><a href="contact.html">Contact</a></li>
 			</ul>
-			<button class="hamburger" onclick="toggleNav()">Hamburger</button>
+			<button class="hamburger-menu" onclick="changeNav()">Menu</button>
 		</nav>
 		<!-- Landing Page Section -->
 		<header class="landing">
@@ -27,8 +31,8 @@
 		</header>
 		<section>
 			<p id="blog-body"></p>
-			<h4>Comments</h4>
-			<ul id="comments"></ul>
+			<h4>Author</h4>
+			<ul id="author"></ul>
 		</section>
 		<!-- Footer -->
 		<footer>
