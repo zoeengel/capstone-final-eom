@@ -38,7 +38,7 @@ section {
 .nav-links {
 	display: flex;
 	list-style-type: none;
-	transition: all 0.2s linear;
+	transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .nav-link a {
