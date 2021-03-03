@@ -72,6 +72,8 @@
 @media screen and (max-width: 535px) {
 	.header-title {
 		font-size: 25px;
+		text-align: center;
+		line-height: normal;
 	}
 	#header-sub {
 		font-size: 15px;

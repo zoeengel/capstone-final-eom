@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./assets/styles/navigation.css" />
 		<link rel="stylesheet" href="./assets/styles/footer.css" />
+		<link rel="stylesheet" href="./assets/styles/contact.css" />
 		<script
 			src="https://kit.fontawesome.com/b9dcc5736f.js"
 			crossorigin="anonymous"
@@ -24,7 +25,43 @@
 			</ul>
 			<button class="hamburger-menu" onclick="changeNav()">Menu</button>
 		</nav>
-		<section class="contact"></section>
+		<!-- Comtact section -->
+		<section class="contact-section">
+			<div class="contact">
+				<h3>Email Me</h3>
+
+				<form
+					id="contact-form"
+					name="contact"
+					method="POST"
+					data-netlify="true"
+				>
+					<p>
+						<label>Name</label>
+						<input type="text" name="name" id="name" required />
+					</p>
+
+					<p>
+						<label>E-mail Address</label>
+						<input type="email" name="email" id="email" required />
+					</p>
+
+					<p>
+						<label>Phone Number</label>
+						<input type="text" name="phone" id="phone" />
+					</p>
+
+					<p class="full">
+						<label>Message</label>
+						<textarea name="message" rows="4" id="message"></textarea>
+					</p>
+
+					<p class="full">
+						<button type="submit">Submit</button>
+					</p>
+				</form>
+			</div>
+		</section>
 		<!-- Footer -->
 		<footer>
 			<ul class="social-footer">

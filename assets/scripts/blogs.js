@@ -22,11 +22,10 @@ function createBlogItem(blog) {
 					</div>
 					<div class="card-body">
 					<p>${blog.Content}</p>
+					<a href="./blog.html?blogID=${blog.id}" class="btn" >See article</a>
 					</div>
 				</div>
-				<div class="card-body">
-					<a href="./blog.html?blogID=${blog.id}" class="btn" >See article</a>
-				</div>
+				
 			</div>
 </li>`;
 	let list = document.getElementById("blog-items");
