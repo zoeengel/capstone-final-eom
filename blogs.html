@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="./assets/styles/landing.css" />
 		<link rel="stylesheet" href="./assets/styles/latest_articles.css" />
 		<link rel="stylesheet" href="./assets/styles/blog.css" />
+		<link rel="stylesheet" href="./assets/styles/search.css" />
+		<link rel="stylesheet" href="./assets/styles/preloader.css" />
 		<script
 			src="https://kit.fontawesome.com/b9dcc5736f.js"
 			crossorigin="anonymous"
@@ -17,9 +19,20 @@
 		<title>Blogs</title>
 	</head>
 	<body>
+		<!-- Preloader -->
+		<div class="preloader">
+			<div class="loader"></div>
+		</div>
 		<!-- Navigation -->
 		<nav class="nav-bar">
 			<img class="logo" alt="logo" src="assets/images/logo1.png" />
+			<!-- Search Section -->
+			<div>
+				<form id="search-form" onsubmit="event.preventDefault(); searchBlog()">
+					<input type="text" name="search" placeholder="Search" />
+					<button type="submit">Search</button>
+				</form>
+			</div>
 			<ul class="nav-links" id="nav-links">
 				<li class="nav-link"><a href="index.html">Home</a></li>
 				<li class="nav-link"><a href="index.html">About</a></li>
@@ -33,6 +46,7 @@
 			<h1 class="header-title">Blogs</h1>
 			<h3 class="header-title" id="header-sub">Our thoughts and interviews</h3>
 		</header>
+
 		<!-- Blogs Section -->
 		<section class="blogs">
 			<ul id="blog-items"></ul>
@@ -64,5 +78,6 @@
 		<!-- Script Files -->
 		<script src="assets/scripts/navigation.js"></script>
 		<script src="assets/scripts/blogs.js"></script>
+		<script src="assets/scripts/search.js"></script>
 	</body>
 </html>

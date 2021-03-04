@@ -42,6 +42,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 }
 
 .card .card-image {
@@ -84,17 +85,17 @@
 }
 .content {
 	text-align: center;
-	margin: 70px auto;
+	/* margin: 70px auto; */
 	padding: 20px;
 	background: rgb(121, 199, 98);
 	color: #000000;
 	border-radius: 5px;
-	width: 30%;
+	width: 50%;
 	/* position: relative; */
-	transition: all 5s ease-in-out;
+	transition: all 3s ease-in-out;
 	position: relative;
 	margin: 0 auto;
-	/* top: 35%; */
+	/* top: 30%; */
 	max-width: fit-content;
 }
 

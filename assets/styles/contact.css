@@ -2,13 +2,16 @@
 	font-family: monospace;
 }
 html {
-	background-image: url(/assets/images/slider5.jpg);
+	background-color: rgba(0, 0, 0, 0.267);
+}
+.contact > * {
+	padding: 2em;
 }
 .contact {
 	background: #4c9b64;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
-	padding: 3%;
+	/* padding: 3%; */
 }
 .contact form {
 	display: grid;
@@ -53,21 +56,22 @@ html {
 	outline: 0;
 }
 
-@media only screen and (min-width: 700px){
-    .contact-section {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-    }
-  
-    .contact-section > * {
-      padding: 2em;
-    }
-  
-    .contact {
-      border-radius: 1px;
-    }
-  }
-  @media (max-width:450px){
-    .my-info .fa{
-      font-size: 18px;
-    }
+@media only screen and (min-width: 700px) {
+	.contact-section {
+		display: grid;
+		/* grid-template-columns: 1fr 2fr; */
+	}
+
+	.contact-section > * {
+		padding: 2em;
+	}
+
+	.contact {
+		border-radius: 1px;
+	}
+}
+@media (max-width: 450px) {
+	.my-info .fa {
+		font-size: 18px;
+	}
+}

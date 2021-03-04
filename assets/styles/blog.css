@@ -104,6 +104,6 @@
 		flex-direction: column;
 	}
 	#blog-items li {
-		width: 0;
+		width: 100%;
 	}
 }
