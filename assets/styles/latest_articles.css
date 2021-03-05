@@ -58,7 +58,7 @@
 }
 .card-body {
 	padding: 30px 20px;
-	text-align: center;
+	text-align: left;
 	font-size: 18px;
 	max-width: fit-content;
 	/* padding-bottom: 60px; */
@@ -139,4 +139,13 @@
 }
 .closebtn:hover {
 	color: white;
+}
+
+@media screen and (max-width: 534px) {
+	.pop-head {
+		font-size: 21px;
+	}
+	.pop-head p {
+		font-size: 15px;
+	}
 }

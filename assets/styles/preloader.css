@@ -6,8 +6,8 @@
 	left: 0;
 	right: 0;
 	height: 100vh;
-	background-color: rgb(0, 0, 0);
-	animation: disappear 3s linear forwards;
+	background-color: rgb(27, 25, 25);
+	animation: disappear 5s linear forwards;
 	display: flex;
 	justify-content: center;
 	align-items: center;

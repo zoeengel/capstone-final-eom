@@ -61,6 +61,11 @@ section {
 @media screen and (max-width: 534px) {
 	.hamburger-menu {
 		display: block;
+		border-radius: 2px;
+		padding: 4px;
+		border: none;
+		color: rgb(0, 0, 0);
+		background-color: green;
 	}
 	.nav-links {
 		align-items: center;
@@ -72,5 +77,8 @@ section {
 		position: fixed;
 		overflow: hidden;
 		width: 0px;
+	}
+	.nav-link a {
+		font-size: 18px;
 	}
 }
