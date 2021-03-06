@@ -13,7 +13,7 @@
 	flex-wrap: wrap;
 	/* width: 100vw; */
 	/* margin: 2em auto; */
-	padding: 11em;
+	padding: 10%;
 	/* padding-top: 5em;
 	padding-bottom: 5em; */
 	background-color: rgba(0, 0, 0, 0.575);
@@ -30,7 +30,7 @@
 .card {
 	/* z-index: -1; */
 	position: relative;
-	flex: 0 0 30%;
+	/* flex: 0 0 30%; */
 	border: none;
 	margin-bottom: 50px;
 	transition: 0.3s;

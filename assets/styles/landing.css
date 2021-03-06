@@ -19,6 +19,8 @@
 	font-family: monospace;
 	font-size: 75px;
 	padding: 2%;
+	text-align: center;
+	line-height: normal;
 	/* opacity: 1; */
 }
 #header-sub {
@@ -92,9 +94,12 @@
 	}
 }
 
-@media (max-width: 620px) {
+@media (max-width: 999px) {
 	.three-latest-container {
-		width: 100%;
+		/* width: 100%; */
+	}
+	.card-img-top {
+		width: 0;
 	}
 	.card {
 		widows: 80%;
