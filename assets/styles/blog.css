@@ -24,6 +24,7 @@
 	flex-direction: column;
 	margin-left: 2em;
 	justify-content: center;
+	width: 45%;
 }
 .single-post-image {
 	width: 55%;
@@ -50,7 +51,7 @@
 	margin-top: 8px;
 }
 .back-to-blogs {
-	transition: 0.3s ease-in-out;
+	/* transition: 0.3s ease-in-out; */
 	text-decoration: none;
 	text-transform: uppercase;
 	display: block;
