@@ -31,7 +31,7 @@
 	border: white 2px solid;
 	padding: 6px;
 	margin: 10px;
-	border-radius: 4px;
+	border-radius: 20px;
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	font-size: 90%;
@@ -45,7 +45,7 @@
 }
 
 .explore-btn:hover {
-	background-color: rgb(93, 99, 92);
+	background-color: #74bd67d8;
 	opacity: 0.8;
 }
 
