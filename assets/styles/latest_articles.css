@@ -30,11 +30,11 @@
 .card {
 	/* z-index: -1; */
 	position: relative;
-	/* flex: 0 0 30%; */
+	flex: 0 30%;
 	border: none;
 	margin-bottom: 50px;
 	transition: 0.3s;
-	height: 100%;
+	height: max-content;
 	align-self: center;
 	justify-self: center;
 	place-self: center;
