@@ -84,7 +84,8 @@
 	color: rgb(0, 0, 0);
 }
 .content {
-	text-align: center;
+	text-align: left;
+	line-height: 2em;
 	/* margin: 70px auto; */
 	padding: 20px;
 	background: rgb(121, 199, 98);
@@ -115,27 +116,26 @@
 }
 
 .modal:target {
-	/* show it */
+	/* this is to display the modal */
 	visibility: visible;
 	opacity: 1;
 }
 .pop-head {
-	font-size: 42px;
-	line-height: 2;
-	letter-spacing: 0.022em;
+	font-size: 40px;
+	padding-bottom: 30px;
+	line-height: 1;
+	/* letter-spacing: 0.022em; */
 	font-weight: 600;
 	font-style: normal;
 }
 
 .closebtn {
-	/* position: absolute; */
-	/* top: 20px; */
-	/* right: 30px; */
 	transition: all 200ms;
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: bold;
 	text-decoration: none;
 	color: #333;
+	margin-left: 95%;
 }
 .closebtn:hover {
 	color: white;
